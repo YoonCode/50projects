@@ -19,6 +19,7 @@ function addTodo(todo) {
 
   if (todo) {
     todoText = todo.text
+    console.log(todo.text)
   }
 
   if (todoText) {
